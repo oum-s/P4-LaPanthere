@@ -25,12 +25,16 @@ a:hover {
     font-size: 16px;
     border-radius: 30px;
 }
-.italic{
+.citation{
     font-style: italic;
     font-size: 17px;
 }
 .description{
     font-size: 18px;
+}
+
+.end{
+    color: #1C1C1C!important;
 }
 
 #page-loading-blocs-notifaction {
@@ -755,7 +759,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 25px auto;
 }
 
 .portfolio-row {
@@ -795,12 +799,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1C1C1C!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #1C1C1C!important;
 }
 
 .ltc-white {
