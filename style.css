@@ -16,6 +16,29 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+
+}
+
+li:hover{
+    color: #F3976C;
+}
+
+.min{
+    width: fit-content;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+.citation{
+    font-style: italic;
+    font-size: 17px;
+}
+.description{
+    font-size: 18px;
+}
+
+.end{
+    color: #1C1C1C!important;
 }
 
 #page-loading-blocs-notifaction {
@@ -332,10 +355,7 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -443,6 +463,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    color: black!important;
 }
 
 .btn {
@@ -660,6 +681,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    color: black!important;
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -740,7 +762,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 25px auto;
 }
 
 .portfolio-row {
@@ -780,12 +802,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1C1C1C!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #1C1C1C!important;
 }
 
 .ltc-white {
@@ -822,7 +844,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -848,13 +870,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -872,10 +894,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    /* .bloc { */
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
+    /* } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -884,8 +906,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
     }
 }
 

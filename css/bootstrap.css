@@ -69,7 +69,7 @@ strong {
 }
 
 dfn {
-    font-style: italic
+    font-style: italic;
 }
 
 h1 {
@@ -7795,23 +7795,23 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .pull-right {
-    float: right !important
+    float: right !important;
 }
 
 .pull-left {
-    float: left !important
+    float: left !important;
 }
 
 .hide {
-    display: none !important
+    display: none !important;
 }
 
 .show {
-    display: block !important
+    display: block !important;
 }
 
 .invisible {
@@ -7842,7 +7842,7 @@ button.close {
 .visible-md,
 .visible-sm,
 .visible-xs {
-    display: none !important
+    display: none !important;
 }
 
 .visible-lg-block,
